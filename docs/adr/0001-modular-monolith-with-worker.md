@@ -1,7 +1,8 @@
 # ADR 0001: Modular monolith with a background worker
 
-- **Status:** Proposed
+- **Status:** Accepted
 - **Date:** 2026-07-18
+- **Accepted by:** PR #1
 
 ## Context
 
