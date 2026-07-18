@@ -6,7 +6,7 @@ Archon is an AI-powered software architecture studio that turns a product idea i
 
 ## Project status
 
-Archon is currently in the product-definition and architecture phase. Implementation should not begin until the initial PRD and architecture decisions are reviewed and approved.
+The Archon MVP product requirements, architecture direction, security baseline, and roadmap are approved. Detailed implementation decisions and sequencing are proposed in the implementation specification pull request and must be reviewed before application implementation begins.
 
 ## MVP outputs
 
@@ -26,6 +26,10 @@ Archon is currently in the product-definition and architecture phase. Implementa
 - [System architecture](docs/ARCHITECTURE.md)
 - [Development roadmap](docs/ROADMAP.md)
 - [Security baseline](docs/SECURITY.md)
+- [MVP implementation specification](docs/specs/MVP_IMPLEMENTATION_SPEC.md)
+- [API and data specification](docs/specs/API_AND_DATA_SPEC.md)
+- [Implementation plan](docs/specs/IMPLEMENTATION_PLAN.md)
+- [Testing and operations strategy](docs/specs/TESTING_AND_OPERATIONS.md)
 - [Architecture decisions](docs/adr/)
 
 ## Contribution model
