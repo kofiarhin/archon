@@ -6,19 +6,28 @@ Archon is an AI-powered software architecture studio that turns a product idea i
 
 ## Project status
 
-Archon is currently in the product-definition and architecture phase. The initial repository documentation and PRD are being prepared before implementation begins.
+Archon is currently in the product-definition and architecture phase. Implementation should not begin until the initial PRD and architecture decisions are reviewed and approved.
 
-## Planned outputs
+## MVP outputs
 
-- Product requirements
+- Product requirements and assumptions
 - Recommended technology stack
-- System architecture
-- Database schema and ERD
-- API design
-- Authentication and authorization flows
-- Mermaid diagrams
+- System and component architecture
+- Database schema and Mermaid ERD
+- API and authentication design
 - Security and scalability guidance
-- Delivery roadmap
-- Coding-agent prompts
+- Repository structure and delivery roadmap
+- Architecture decision records
+- Coding-agent prompts for approved work
 
-See [`docs/PRD.md`](docs/PRD.md) once the initial documentation pull request is merged.
+## Documentation
+
+- [Product requirements](docs/PRD.md)
+- [System architecture](docs/ARCHITECTURE.md)
+- [Development roadmap](docs/ROADMAP.md)
+- [Security baseline](docs/SECURITY.md)
+- [Architecture decisions](docs/adr/)
+
+## Contribution model
+
+Changes to product scope, architecture, security requirements, or acceptance criteria should be made through reviewable pull requests. Proposed decisions must remain distinct from approved decisions.
