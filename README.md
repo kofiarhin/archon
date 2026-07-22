@@ -6,7 +6,9 @@ Archon is an AI-powered software architecture studio that turns a product idea i
 
 ## Project status
 
-The Archon MVP product requirements, architecture direction, security baseline, and roadmap are approved. Detailed implementation decisions and sequencing are proposed in the implementation specification pull request and must be reviewed before application implementation begins.
+The Archon MVP product requirements, architecture direction, security baseline, and roadmap are approved. Detailed implementation decisions and sequencing are proposed in the implementation specification and must be reviewed before application implementation begins.
+
+Archon is currently a specification-first repository. No runnable application, package manifest, deployment configuration, or executable test suite is present on `main`; proposed documents must not be treated as implementation evidence.
 
 ## MVP outputs
 
@@ -22,6 +24,7 @@ The Archon MVP product requirements, architecture direction, security baseline, 
 
 ## Documentation
 
+- [Codebase audit](docs/CODEBASE_AUDIT.md)
 - [Product requirements](docs/PRD.md)
 - [System architecture](docs/ARCHITECTURE.md)
 - [Development roadmap](docs/ROADMAP.md)
@@ -32,6 +35,10 @@ The Archon MVP product requirements, architecture direction, security baseline, 
 - [Testing and operations strategy](docs/specs/TESTING_AND_OPERATIONS.md)
 - [Architecture decisions](docs/adr/)
 
+## Development
+
+There is no runnable development environment yet. Setup, test, build, migration, and deployment commands should be added only when the corresponding implementation exists and has been verified.
+
 ## Contribution model
 
-Changes to product scope, architecture, security requirements, or acceptance criteria should be made through reviewable pull requests. Proposed decisions must remain distinct from approved decisions.
+Changes to product scope, architecture, security requirements, or acceptance criteria should be made through reviewable changes. Proposed decisions must remain distinct from approved decisions, and planned behavior must remain distinct from implemented behavior.
